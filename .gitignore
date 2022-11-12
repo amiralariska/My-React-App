@@ -4,6 +4,7 @@ package-lock.json
 .env
 *.txt
 *.zip
+*.svg
 
 # dependencies
 /node_modules
