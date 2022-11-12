@@ -3,3 +3,5 @@
     <h1 align="center">My React App</h1>
     <p align="center">My First React App</p>
 </p>
+
+> **Info:** My React App will be updated at November 25, 2022
