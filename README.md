@@ -4,4 +4,4 @@
     <p align="center">My First React App</p>
 </p>
 
-> **Info:** My React App will be updated at November 25, 2022
+> **Info:** My React App will be updated at November 26, 2022
