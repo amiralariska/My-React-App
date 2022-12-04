@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 .banner.collapse .banner-main-content{
-    margin-top: 75px;
+    margin-top: 73.5px;
     margin-bottom: 0;
 }
 .banner.collapse path#chevron-down-left{
@@ -148,7 +148,7 @@ button.expand-btn:hover{
         height: 38.5px;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 58.5px;
+        margin-top: 65px;
         margin-bottom: 0;
     }
 }
@@ -167,6 +167,10 @@ button.expand-btn:hover{
     svg.downarrow-icon{
         width: 35px;
         height: 35px;
+    }
+    .banner.collapse .banner-main-content{
+        margin-top: 58.5px;
+        margin-bottom: 0;
     }
 }
 @media screen and (max-width: 768px) {
@@ -197,7 +201,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 725px) {
     .banner.collapse .banner-main-content{
-        margin-top: 62.5px;
+        margin-top: 58.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -218,7 +222,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 650px) {
     .banner.collapse .banner-main-content{
-        margin-top: 53.5px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -239,7 +243,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 585px) {
     .banner.collapse .banner-main-content{
-        margin-top: 48.5px;
+        margin-top: 42.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -285,6 +289,10 @@ button.expand-btn:hover{
     }
 }
 @media screen and (max-width: 500px) {
+    .banner.collapse .banner-main-content{
+        margin-top: 58.5px;
+        margin-bottom: 0;
+    }
     .banner.collapse{
         height: 165px;
         overflow: hidden;
@@ -308,7 +316,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 450px) {
     .banner.collapse .banner-main-content{
-        margin-top: 52.5px;
+        margin-top: 53.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -330,7 +338,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 385px) {
     .banner.collapse .banner-main-content{
-        margin-top: 50px;
+        margin-top: 48.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -356,7 +364,7 @@ button.expand-btn:hover{
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 45px;
+        margin-top: 42.5px;
         margin-bottom: 0;
     }
     button.expand-btn{

@@ -5,100 +5,92 @@
 .countdown-timer span.clone{
     font-family: 'League Spartan', sans-serif;
 }
-.now-title{
+a.github-pages{
 	font-size: 35px;
-	font-weight: 700;
-    color: #00e5ff;
-    margin-bottom: 5px;
+	font-weight: 600;
+    color: #00c5df;
+    margin-top: 35px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a.github-pages:hover{
+    color: #00d5ef;
+    text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
     .timer-container{
         margin-bottom: -25px;
     }
-    .now-title{
+    a.github-pages{
         font-size: 32.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 925px) {
-    .now-title{
+    a.github-pages{
         font-size: 28.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 850px) {
-    .now-title{
+    a.github-pages{
         font-size: 25px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 768px) {
     .timer-container{
         margin-bottom: -42.5px;
     }
-    .now-title{
+    a.github-pages{
         font-size: 35px;
         font-weight: 700;
-        color: #00e5ff;
-        margin-bottom: 5px;
     }
 }
 @media screen and (max-width: 725px) {
     .timer-container{
         margin-bottom: -35px;
     }
-    .now-title{
+    a.github-pages{
         font-size: 32.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 650px) {
-    .now-title{
+    a.github-pages{
         font-size: 28.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 585px) {
-    .now-title{
+    a.github-pages{
         font-size: 25px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 545px) {
     .timer-container{
         margin-bottom: -38.5px;
     }
-    .now-title{
+    a.github-pages{
         font-size: 35px;
         font-weight: 700;
-        color: #00e5ff;
-        margin-bottom: 5px;
     }
 }
 @media screen and (max-width: 500px) {
     .timer-container{
         margin-bottom: -32.5px;
     }
-    .now-title{
+    a.github-pages{
         font-size: 32.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 450px) {
-    .now-title{
+    a.github-pages{
         font-size: 28.5px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 385px) {
-    .now-title{
+    a.github-pages{
         font-size: 25px;
-        margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 325px) {
-    .now-title{
+    a.github-pages{
         font-size: 23.5px;
-        margin-bottom: 12.5px;
     }
 }
