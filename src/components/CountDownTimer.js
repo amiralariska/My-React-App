@@ -32,6 +32,6 @@ export default function CountDownTimer({ timerDays, timerHours, timerMinutes, ti
 CountDownTimer.defaultProps = {
     timerDays: '00',
     timerHours: '01',
-    timerMinutes: '05',
+    timerMinutes: '20',
     timerSeconds: '00',
 }

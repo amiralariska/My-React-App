@@ -12,7 +12,7 @@ export default function Countdown() {
 	let now;
 	let distance;
 	const startTimer = () => {
-		const countDownDate = new Date("Dec 4, 2022 21:45:00").getTime();
+		const countDownDate = new Date("Dec 5, 2022 12:45:00").getTime();
 
 		let interval = setInterval(() => {
 				const now = new Date().getTime();
@@ -40,14 +40,14 @@ export default function Countdown() {
 	useEffect(() => {
 		startTimer();
 	});
-	countDownDate = new Date("Dec 4, 2022 21:45:00").getTime();
+	countDownDate = new Date("Dec 5, 2022 12:45:00").getTime();
 	now = new Date().getTime();
 	distance = countDownDate - now;
 	return (
 		<>
 			{/* <div className='now'>Now</div> */}
 			{/* <a className='github-repo' href='https://amiralariska.github.io/my-react-app/' target='_blank' rel='noopener noreferrer'>Please check this github repo</a> */}
-			{distance < 0 ? <a className='github-pages' href='https://amiralariska.github.io/my-react-app/' target='_blank' rel='noopener noreferrer'>View in browser</a> : <CountDownTimer timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds} />}
+			{distance < 0 ? <a className='github-pages' href='https://amiralariska.github.io/my-react-app-web/' target='_blank' rel='noopener noreferrer'>View in browser</a> : <CountDownTimer timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds} />}
 		</>
 	);
 }
